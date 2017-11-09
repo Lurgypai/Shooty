@@ -1,0 +1,4 @@
+﻿  Advance.cpp
+c:\users\dapop\desktop\lurgypai\cpp\projects\shooty\shooty\advance.cpp(54): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Shooty.vcxproj -> C:\Users\dapop\Desktop\Lurgypai\CPP\Projects\Shooty\x64\Debug\Shooty.exe
+  Shooty.vcxproj -> C:\Users\dapop\Desktop\Lurgypai\CPP\Projects\Shooty\x64\Debug\Shooty.pdb (Partial PDB)

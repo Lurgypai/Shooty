@@ -1,0 +1,25 @@
+
+    This is Shooty, a little project of mine. I decided to document all the changes I make for each version
+   tp make this easier for my bug tester(s) to know what changed and what they need to test. The changelog
+   will run through all the alpha, beta, and release versions of Shooty.
+   
+                                                                  -Thanks for tryin this out! -Isaiah Honor
+   
+ !!!! A big thanks to OscarDoesGaming for beta testing. !!!!
+ !!!! A big thanks to TheJuice for beta testing.        !!!!
+ ---------------------------- Release 0.04A ----------------------------
+ -Added Pause Menu (Accessed via Esc)
+ 
+---------------------------- Release 0.03A ----------------------------
+-Decreased players movement speed and shooting speed.
+-Increased enemy's health. Square: 2, Circle: 2, Triangle: 3
+-Added 2 second delay between waves.
+-Added .33 second delay between enemies spawning.
+-Debug messages display level and wave.
+ 
+---------------------------- Release 0.02A ----------------------------
+-Added level and Wave systems. Currently there is one leve with 5 waves in it.
+ 
+---------------------------- Release 0.01A ----------------------------
+-Added circular enemy. Shoots shieldable expanding attack. Does one damage has one health.
+

@@ -1,0 +1,87 @@
+﻿  stdafx.cpp
+  AdvanceScreen.cpp
+  AICircleComponent.cpp
+AICircleComponent.cpp(9): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+AICircleComponent.cpp(17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+AICircleComponent.cpp(25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+AICircleComponent.cpp(72): warning C4305: 'argument': truncation from 'double' to 'const float'
+AICircleComponent.cpp(10): warning C4189: 'distance': local variable is initialized but not referenced
+AICircleComponent.cpp(9): warning C4189: 'deltaAngle': local variable is initialized but not referenced
+  AIHexaComponent.cpp
+AIHexaComponent.cpp(9): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+AIHexaComponent.cpp(19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+AIHexaComponent.cpp(20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  AISquareComponent.cpp
+AISquareComponent.cpp(8): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+AISquareComponent.cpp(25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  AITrianlgeComponent.cpp
+AITrianlgeComponent.cpp(8): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Arena.cpp
+  BaseMenu.cpp
+BaseMenu.cpp(24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+BaseMenu.cpp(12): warning C4100: '_window': unreferenced formal parameter
+  BulletBase.cpp
+  Button.cpp
+Button.cpp(34): warning C4100: 'height': unreferenced formal parameter
+  CircleBullet.cpp
+CircleBullet.cpp(7): warning C4100: 'angle': unreferenced formal parameter
+CircleBullet.cpp(51): warning C4100: 'arena': unreferenced formal parameter
+CircleBullet.cpp(51): warning C4100: 'window': unreferenced formal parameter
+  Configuration.cpp
+  EnemyBase.cpp
+EnemyBase.cpp(12): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  EntityBase.cpp
+  EntityBoss.cpp
+EntityBoss.cpp(164): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  EntityManager.cpp
+  EntityPlayer.cpp
+EntityPlayer.cpp(14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+EntityPlayer.cpp(53): warning C4458: declaration of 'angle' hides class member
+  c:\users\dapop\desktop\lurgypai\cpp\projects\shooty\shooty\EntityBase.h(39): note: see declaration of 'Entity::angle'
+EntityPlayer.cpp(53): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+EntityPlayer.cpp(70): warning C4458: declaration of 'angle' hides class member
+  c:\users\dapop\desktop\lurgypai\cpp\projects\shooty\shooty\EntityBase.h(39): note: see declaration of 'Entity::angle'
+EntityPlayer.cpp(70): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+EntityPlayer.cpp(123): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+EntityPlayer.cpp(124): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+EntityPlayer.cpp(126): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+EntityPlayer.cpp(130): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+EntityPlayer.cpp(132): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+EntityPlayer.cpp(193): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+EntityPlayer.cpp(265): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+EntityPlayer.cpp(288): warning C4305: 'argument': truncation from 'double' to 'float'
+  Game.cpp
+  Gui.cpp
+Gui.cpp(85): warning C4458: declaration of 'points' hides class member
+  c:\users\dapop\desktop\lurgypai\cpp\projects\shooty\shooty\Gui.h(8): note: see declaration of 'Gui::points'
+Gui.cpp(188): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Level.cpp
+  LevelManager.cpp
+  Compiling...
+  PlayableSound.cpp
+  PlayerBullet.cpp
+PlayerBullet.cpp(11): warning C4100: 'angle': unreferenced formal parameter
+PlayerBullet.cpp(46): warning C4100: 'player': unreferenced formal parameter
+PlayerBullet.cpp(46): warning C4100: 'window': unreferenced formal parameter
+  PointsScreen.cpp
+PointsScreen.cpp(62): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+PointsScreen.cpp(51): warning C4100: 'levelNumber': unreferenced formal parameter
+  Polygon.cpp
+Polygon.cpp(27): warning C4100: 'point': unreferenced formal parameter
+  Shooty.cpp
+Shooty.cpp(7): warning C4007: 'WinMain': must be '__stdcall'
+  SoundManager.cpp
+  SquareBullet.cpp
+SquareBullet.cpp(7): warning C4100: 'angle': unreferenced formal parameter
+SquareBullet.cpp(38): warning C4100: 'window': unreferenced formal parameter
+  TriangleBullet.cpp
+TriangleBullet.cpp(7): warning C4100: 'angle': unreferenced formal parameter
+TriangleBullet.cpp(40): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+TriangleBullet.cpp(77): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+TriangleBullet.cpp(78): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+TriangleBullet.cpp(38): warning C4100: 'window': unreferenced formal parameter
+  User.cpp
+  Wave.cpp
+  WinScreen.cpp
+WinScreen.cpp(23): warning C4100: 'sounds': unreferenced formal parameter
+sfml-graphics.lib(sfml-graphics-2.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'

@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{ce0e8c98-608c-4da2-aeca-a5507907153b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{7b99e132-6e2c-4b8d-8ec8-20639579b662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Menu">
+      <UniqueIdentifier>{d3fdea6d-a6da-4070-8a36-4369c24da41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Menu">
+      <UniqueIdentifier>{3d8046a2-1c7b-40eb-a3ac-8983ec360340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Options">
+      <UniqueIdentifier>{a360f7c6-1246-44ef-b331-c893b15d9132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Options">
+      <UniqueIdentifier>{1bd69119-b66e-4525-b44c-1d4f1f05be74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Exception">
+      <UniqueIdentifier>{ecbe3e70-d05c-4b0d-a0f0-7284c9f1fdbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Entity">
+      <UniqueIdentifier>{aaf72ab0-2301-405a-ad56-83632f68b594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Entity">
+      <UniqueIdentifier>{6024bc48-2bfe-48bf-a0f6-210e67245ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Entity\Bullet">
+      <UniqueIdentifier>{fddd504b-068f-485a-a63c-1c83463b82d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Entity\Bullet">
+      <UniqueIdentifier>{23c146a4-2106-4286-bbb3-eac26e640723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Entity\Enemy">
+      <UniqueIdentifier>{49fe095f-656f-40c4-a653-2945b7d8c9cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Entity\Enemy">
+      <UniqueIdentifier>{08cfd32f-c419-4b98-a36d-34b37fd7ec81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Entity\Enemy\AI">
+      <UniqueIdentifier>{b468904d-5d60-43e0-aa89-c1749da04837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Entity\Enemy\AI">
+      <UniqueIdentifier>{d8bcbf1d-a6bd-4724-8e47-a301d8f47fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Level">
+      <UniqueIdentifier>{7f6f3f67-c7ef-444c-ab66-96c30ce8ed06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Level">
+      <UniqueIdentifier>{1174c091-5389-46e8-a54a-8f5dd8046551}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Gui">
+      <UniqueIdentifier>{4c0226c4-b209-48b4-b142-40600b3bce75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Gui">
+      <UniqueIdentifier>{2dd7e937-85a0-4788-a650-a2793118673f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\User">
+      <UniqueIdentifier>{04b9ee01-c8e2-4cc2-9fa3-847b22059cc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\User">
+      <UniqueIdentifier>{3a5a4088-b166-497e-bb97-b00fa64322cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Sound">
+      <UniqueIdentifier>{4b502ff4-7160-429d-b33b-9156b35d3fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Sound">
+      <UniqueIdentifier>{33c80e2b-16f1-4805-b6b3-bcea0e2282bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMenu.h">
+      <Filter>Header Files\Game\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Game\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.h">
+      <Filter>Header Files\Game\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="FileNotFoundException.h">
+      <Filter>Header Files\Game\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityBase.h">
+      <Filter>Header Files\Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityPlayer.h">
+      <Filter>Header Files\Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Arena.h">
+      <Filter>Header Files\Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>Header Files\Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletBase.h">
+      <Filter>Header Files\Game\Entity\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet.h">
+      <Filter>Header Files\Game\Entity\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Header Files\Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBase.h">
+      <Filter>Header Files\Game\Entity\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="IAIComponent.h">
+      <Filter>Header Files\Game\Entity\Enemy\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AISquareComponent.h">
+      <Filter>Header Files\Game\Entity\Enemy\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AICircleComponent.h">
+      <Filter>Header Files\Game\Entity\Enemy\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareBullet.h">
+      <Filter>Header Files\Game\Entity\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="AITriangleComponent.h">
+      <Filter>Header Files\Game\Entity\Enemy\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleBullet.h">
+      <Filter>Header Files\Game\Entity\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleBullet.h">
+      <Filter>Header Files\Game\Entity\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave.h">
+      <Filter>Header Files\Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Header Files\Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui.h">
+      <Filter>Header Files\Game\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="InBetween.h">
+      <Filter>Header Files\Game\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvanceScreen.h">
+      <Filter>Header Files\Game\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="PointsScreen.h">
+      <Filter>Header Files\Game\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files\Game\User</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files\Game\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayableSound.h">
+      <Filter>Header Files\Game\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="WinScreen.h">
+      <Filter>Header Files\Game\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="AIHexaComponent.h">
+      <Filter>Header Files\Game\Entity\Enemy\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityBoss.h">
+      <Filter>Header Files\Game\Entity\Enemy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shooty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMenu.cpp">
+      <Filter>Source Files\Game\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Game\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration.cpp">
+      <Filter>Source Files\Game\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityBase.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPlayer.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Arena.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletBase.cpp">
+      <Filter>Source Files\Game\Entity\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp">
+      <Filter>Source Files\Game\Entity\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBase.cpp">
+      <Filter>Source Files\Game\Entity\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="AISquareComponent.cpp">
+      <Filter>Source Files\Game\Entity\Enemy\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AICircleComponent.cpp">
+      <Filter>Source Files\Game\Entity\Enemy\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="SquareBullet.cpp">
+      <Filter>Source Files\Game\Entity\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="AITrianlgeComponent.cpp">
+      <Filter>Source Files\Game\Entity\Enemy\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleBullet.cpp">
+      <Filter>Source Files\Game\Entity\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleBullet.cpp">
+      <Filter>Source Files\Game\Entity\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave.cpp">
+      <Filter>Source Files\Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>Source Files\Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui.cpp">
+      <Filter>Source Files\Game\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceScreen.cpp">
+      <Filter>Source Files\Game\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="PointsScreen.cpp">
+      <Filter>Source Files\Game\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\Game\User</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayableSound.cpp">
+      <Filter>Source Files\Game\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files\Game\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="WinScreen.cpp">
+      <Filter>Source Files\Game\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="AIHexaComponent.cpp">
+      <Filter>Source Files\Game\Entity\Enemy\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityBoss.cpp">
+      <Filter>Source Files\Game\Entity\Enemy</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
