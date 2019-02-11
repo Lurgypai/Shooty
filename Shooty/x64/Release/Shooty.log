@@ -1,68 +1,26 @@
-﻿  stdafx.cpp
-  AdvanceScreen.cpp
-  AICircleComponent.cpp
-AICircleComponent.cpp(9): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-AICircleComponent.cpp(17): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-AICircleComponent.cpp(25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-AICircleComponent.cpp(72): warning C4305: 'argument': truncation from 'double' to 'const float'
-  AIHexaComponent.cpp
-AIHexaComponent.cpp(9): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-AIHexaComponent.cpp(19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-AIHexaComponent.cpp(20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  AISquareComponent.cpp
-AISquareComponent.cpp(8): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-AISquareComponent.cpp(25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  AITrianlgeComponent.cpp
-AITrianlgeComponent.cpp(8): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  Arena.cpp
-  BaseMenu.cpp
-BaseMenu.cpp(24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-  BulletBase.cpp
-  Button.cpp
-  CircleBullet.cpp
-  Configuration.cpp
-  EnemyBase.cpp
-EnemyBase.cpp(12): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  EntityBase.cpp
-  EntityBoss.cpp
-EntityBoss.cpp(164): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  EntityManager.cpp
-  EntityPlayer.cpp
-EntityPlayer.cpp(14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-EntityPlayer.cpp(53): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-EntityPlayer.cpp(70): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-EntityPlayer.cpp(123): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-EntityPlayer.cpp(124): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-EntityPlayer.cpp(126): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-EntityPlayer.cpp(130): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
-EntityPlayer.cpp(132): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
-EntityPlayer.cpp(193): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-EntityPlayer.cpp(265): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-EntityPlayer.cpp(288): warning C4305: 'argument': truncation from 'double' to 'float'
-  Game.cpp
-  Gui.cpp
-Gui.cpp(188): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  Level.cpp
-  LevelManager.cpp
-  Compiling...
-  PlayableSound.cpp
-  PlayerBullet.cpp
-  PointsScreen.cpp
-PointsScreen.cpp(62): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  Polygon.cpp
-  Shooty.cpp
-  SoundManager.cpp
-  SquareBullet.cpp
-  TriangleBullet.cpp
-TriangleBullet.cpp(40): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-TriangleBullet.cpp(77): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-TriangleBullet.cpp(78): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  User.cpp
-  Wave.cpp
-  WinScreen.cpp
+﻿  EntityPlayer.cpp
+c:\users\tinde\desktop\lurgypai\cpp\projects\shooty\shooty\entityplayer.cpp(14): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\tinde\desktop\lurgypai\cpp\projects\shooty\shooty\entityplayer.cpp(50): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\tinde\desktop\lurgypai\cpp\projects\shooty\shooty\entityplayer.cpp(73): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\tinde\desktop\lurgypai\cpp\projects\shooty\shooty\entityplayer.cpp(126): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\tinde\desktop\lurgypai\cpp\projects\shooty\shooty\entityplayer.cpp(127): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\tinde\desktop\lurgypai\cpp\projects\shooty\shooty\entityplayer.cpp(129): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\tinde\desktop\lurgypai\cpp\projects\shooty\shooty\entityplayer.cpp(133): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\tinde\desktop\lurgypai\cpp\projects\shooty\shooty\entityplayer.cpp(135): warning C4244: '=': conversion from 'const int' to 'float', possible loss of data
+c:\users\tinde\desktop\lurgypai\cpp\projects\shooty\shooty\entityplayer.cpp(196): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\tinde\desktop\lurgypai\cpp\projects\shooty\shooty\entityplayer.cpp(268): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\tinde\desktop\lurgypai\cpp\projects\shooty\shooty\entityplayer.cpp(291): warning C4305: 'argument': truncation from 'double' to 'float'
   Generating code
-c:\users\dapop\desktop\lurgypai\cpp\projects\shooty\shooty\level.cpp(70): warning C4715: 'Level::checkCurrentWaveComplete': not all control paths return a value
-  All 1729 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  3 of 1668 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  Shooty.vcxproj -> C:\Users\dapop\Desktop\Lurgypai\CPP\Projects\Shooty\x64\Release\Shooty.exe
-  Shooty.vcxproj -> C:\Users\dapop\Desktop\Lurgypai\CPP\Projects\Shooty\x64\Release\Shooty.pdb (Full PDB)
+  Shooty.vcxproj -> C:\Users\Tinde\Desktop\Lurgypai\CPP\Projects\Shooty\x64\Release\Shooty.exe

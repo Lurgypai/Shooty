@@ -45,14 +45,17 @@ void Player::update(sf::RenderWindow& window, const Arena& arena, SoundManager& 
 		dashWait = TOTALDASHWAIT;
 	if (invulnerable) {
 		if (invulFrames < TOTALINVULFRAMES) {
-			if (invulFrames == 0) {
-				controlVelocity = .75;
-			}
 			sf::Vector2f mousePosition = window.mapPixelToCoords(sf::Mouse::getPosition(window));
 			sf::Vector2f delta(mousePosition.x - sprite.getPosition().x, mousePosition.y - sprite.getPosition().y);
 			float angle = std::atan2f(delta.y, delta.x) * (180 / 3.1415926535898);
 			setAngle(angle);
 			sprite.setRotation(angle);
+
+			if (invulFrames == 0) {
+				controlVelocity = .75;
+				controlAngle = angle;
+				internalAngle = angle;
+			}
 
 			invulFrames++;
 		}

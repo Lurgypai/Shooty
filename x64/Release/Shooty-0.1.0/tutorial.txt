@@ -1,0 +1,46 @@
+
+-----Hey, welcome to Shooty!-----
+
+    Its pretty simple.
+
+-----:Controls:-----
+        Movement is simple, good ol' WASD. If you were able to somehow download this, then I'm gonna assume you know how to use them.
+        Now Attacking, thats a bit complex. You click. Bam, a bullet happens. And guess what? Right clicking also does a thing! A directional
+        dash will launch you in the direction you are facing, damaging your oponents, and making you invincible. Its mandatory to dodge the
+        circle guys, so I'd recommend using it. Its also the most interesting part of the game.
+        
+        Points are a thing. Enemies are worth base point values. These values are multiplied by the current multiplier, and then add to
+        your score. Multiplier increments every five kills, or on contact with an enemy while dashing.
+        
+        Pretty much just shoot and dodge.
+        
+        TL;DR
+        
+        Up ---- W
+        Left -- A
+        Down -- S
+        Right - D
+        
+        Right-Click - Shoot
+        Left-Click -- Dash (Makes you invulnerable, damages enemies and increases multiplier on contact, three uses, refills on hitting an enemy (1), or getting hit (3))
+        
+        Esc - Pause
+        Space (During points screen) - Advance
+        
+-----:Enemy Overview:-----
+    
+    Square:
+    -HP: 2
+    -Moves towards the player unless he gets too close. Shoots three bullets before moving again.
+    
+    Triangle:
+    -HP: 3
+    -Stationary. Shoots homing rockets that last until they hit the walls or the player. Cannot shoot again till rocket is destroyed.
+    
+    Circle
+    -HP: 2
+    -Moves randomly (has a tendency to get stuck in walls). Shoots an expanding circular wave, only avoidable by dashing through it.
+    
+    Hexagon (Boss)
+    -HP: 50
+    - Uses all three other enemy attack types. Stationary, unless dashing. Dashes randomly, damageing the player. Only dashing does contact damage.
